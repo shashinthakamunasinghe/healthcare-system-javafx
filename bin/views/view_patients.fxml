@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.ViewPatientsController" prefWidth="600" prefHeight="400">
+    <children>
+        <VBox spacing="10" alignment="CENTER" layoutX="30" layoutY="30" prefWidth="540" prefHeight="350">
+            <Label text="All Patients" style="-fx-font-size: 20px;" />
+            <TableView fx:id="tablePatients" prefHeight="250" prefWidth="500">
+                <columns>
+                    <TableColumn fx:id="colName" text="Name" prefWidth="100" />
+                    <TableColumn fx:id="colId" text="ID" prefWidth="100" />
+                    <TableColumn fx:id="colBirthday" text="Birthday" prefWidth="100" />
+                    <TableColumn fx:id="colGender" text="Gender" prefWidth="80" />
+                    <TableColumn fx:id="colContact" text="Contact" prefWidth="100" />
+                </columns>
+            </TableView>
+            <Button text="Back" onAction="#goBack" prefWidth="150" />
+        </VBox>
+    </children>
+</AnchorPane>

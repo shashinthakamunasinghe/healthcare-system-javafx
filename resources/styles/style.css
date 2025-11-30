@@ -1,0 +1,43 @@
+#mainMenuPane {
+    -fx-background-color: #f2f2f2;
+}
+
+#mainTitle, #adminTitle, #addDoctorTitle, #patientText, #addPatientTitle, #appointmentTitle {
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+#adminButton, #patientButton {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+}
+
+#adminButton:hover, #patientButton:hover {
+    -fx-background-color: #2980b9;
+    -fx-cursor: hand;
+}
+
+.button {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#btn {
+	-fx-font-size: 14px;
+}
+
+
+
+/*.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}*/
+
+.text-field {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #ccc;
+}

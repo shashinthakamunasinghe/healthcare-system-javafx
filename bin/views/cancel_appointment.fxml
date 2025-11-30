@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.CancelAppointmentController">
+    <children>
+        <VBox alignment="TOP_CENTER" spacing="10.0" AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+            <Label text="Cancel Appointment" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+            
+            <TableView fx:id="tableAppointments" prefHeight="300" prefWidth="600">
+                <columns>
+                    <TableColumn fx:id="colDoctorName" text="Doctor Name" prefWidth="150"/>
+                    <TableColumn fx:id="colDoctorId" text="Doctor ID" prefWidth="100"/>
+                    <TableColumn fx:id="colPatientName" text="Patient Name" prefWidth="150"/>
+                    <TableColumn fx:id="colPatientId" text="Patient ID" prefWidth="100"/>
+                </columns>
+            </TableView>
+
+            <Label fx:id="lblStatus" textFill="red" />
+
+            <HBox spacing="10" alignment="CENTER">
+                <Button text="Cancel Selected Appointment" onAction="#handleCancel"/>
+                <Button text="Back" onAction="#goBack"/>
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>
