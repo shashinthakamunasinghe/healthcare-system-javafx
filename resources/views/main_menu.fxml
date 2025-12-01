@@ -12,14 +12,14 @@
     <children>
       <ImageView fitHeight="410.0" fitWidth="355.0" layoutX="-129.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../main_menu.png" />
+            <Image url="@../images/main_menu.png" />
          </image>
       </ImageView>
         <VBox alignment="CENTER" layoutX="51.2" layoutY="26.4" prefHeight="349.0" prefWidth="499.0" spacing="20.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="25.0">
             <children>
             <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../icon.png" />
+                  <Image url="@../images/icon.png" />
                </image>
             </ImageView>
                 <Label id="mainTitle" text="Welcome to Channeling Center">
