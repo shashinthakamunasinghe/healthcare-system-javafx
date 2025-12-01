@@ -15,16 +15,16 @@ JavaFX desktop Healthcare System — an MVC-like application for managing doctor
 ## Screenshots
 
 ### Welcome Screen
-![Welcome Screen](images/welcome.png)
+![Welcome Screen](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2001.png)
 
 ### Admin Dashboard
-![Admin Dashboard](images/admin-dashboard.png)
+![Admin Dashboard](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2002.png)
 
 ### Patient Portal
-![Patient Portal](images/patient-portal.png)
+![Patient Portal](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2003.png))
 
 ### Appointment Booking
-![Appointment Booking](images/appointment-booking.png)
+[![Appointment Booking](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2004.png))
 
 ---
 
@@ -45,14 +45,4 @@ git clone https://github.com/shashinthakamunasinghe/healthcare-system-javafx.git
 - MVC Architecture
 - CSV for persistence
 
----
 
-## License
-
-This project is licensed under the terms of the [MIT License](LICENSE).
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow the guidelines outlined in the [CONTRIBUTING](CONTRIBUTING.md) file.
