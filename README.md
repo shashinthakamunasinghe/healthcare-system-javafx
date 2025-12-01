@@ -21,10 +21,10 @@ JavaFX desktop Healthcare System — an MVC-like application for managing doctor
 ![Admin Dashboard](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2002.png)
 
 ### Patient Portal
-![Patient Portal](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2003.png))
+![Patient Portal](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2003.png)
 
 ### Appointment Booking
-[![Appointment Booking](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2004.png))
+[![Appointment Booking](https://github.com/shashinthakamunasinghe/healthcare-system-javafx/blob/main/resources/images/Image%2004.png)
 
 ---
 
